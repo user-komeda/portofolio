@@ -1,7 +1,8 @@
 pre-commit:
   parallel: true
   commands:
-    - name: lint
+    lint:
+      glob: '*.{js,ts,astro}'
       run: yarn lint {staged_files}
-    - name: format
-      run: yarn format {staged_files}
+    format:
+      run: yarn format
