@@ -24,7 +24,7 @@ export const server = {
     }),
     handler: async (input) => {
       const { serviceId, email, message } = input
-
+      console.log('aaa')
       const service = SERVICES.find((service) => service.id === serviceId)
 
       if (!service) {
