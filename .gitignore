@@ -25,3 +25,4 @@ pnpm-debug.log*
 # IDES
 .idea/
 .vscode
+.yarn/install-state.gz
