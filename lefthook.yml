@@ -1,0 +1,7 @@
+pre-commit:
+  parallel: true
+  commands:
+    - name: lint
+      run: yarn lint {staged_files}
+    - name: format
+      run: yarn format {staged_files}
