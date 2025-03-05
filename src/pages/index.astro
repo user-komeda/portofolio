@@ -1,13 +1,14 @@
 ---
-import Card from "../components/Card.astro";
-import Layout from "../layouts/Layout.astro";
-import TimelineItem from "../components/TimelineItem.astro";
-import Project from "../components/Project.astro";
-import CardService from "../components/CardService.astro";
-import EXPERIENCES from "../assets/collections/experiences.json";
-import PROJECTS from "../assets/collections/projects.json";
-import SERVICES from "../assets/collections/services.json";
-import HireServiceModal from "../components/HireServiceModal.astro";
+import Card from '../components/Card.astro'
+import Layout from '../layouts/Layout.astro'
+import TimelineItem from '../components/TimelineItem.astro'
+import Project from '../components/Project.astro'
+import CardService from '../components/CardService.astro'
+import EXPERIENCES from '../assets/collections/experiences.json'
+import SERVICES from '../assets/collections/services.json'
+import HireServiceModal from '../components/HireServiceModal.astro'
+import getPortfolioList from '../api/getPortfolioList'
+const response = await getPortfolioList()
 ---
 
 <Layout>
@@ -147,11 +148,7 @@ import HireServiceModal from "../components/HireServiceModal.astro";
       Latest Projects
     </h2>
     <div class="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {
-        PROJECTS.filter((__, i) => i < 3).map((project) => (
-          <Project project={project} />
-        ))
-      }
+      {response.contents.map((project) => <Project project={project} />)}
     </div>
     <div class="mt-6 flex justify-center">
       <a
@@ -176,20 +173,20 @@ import HireServiceModal from "../components/HireServiceModal.astro";
 </Layout>
 
 <script>
-  import { animate, inView, stagger } from "motion";
+  import { animate, inView, stagger } from 'motion'
 
-  window.addEventListener("DOMContentLoaded", () => {
-    inView("#services", () => {
+  window.addEventListener('DOMContentLoaded', () => {
+    inView('#services', () => {
       animate(
-        ".card-service",
+        '.card-service',
         {
-          transform: ["translateY(100%)", "translateY(0)"],
+          transform: ['translateY(100%)', 'translateY(0)'],
         },
         {
           delay: stagger(0.2),
           duration: 0.6,
         }
-      );
-    });
-  });
+      )
+    })
+  })
 </script>
