@@ -73,19 +73,19 @@ __metadata:
   linkType: hard
 
 "@astrojs/vercel@npm:^8.0.6":
-  version: 8.1.0
-  resolution: "@astrojs/vercel@npm:8.1.0"
+  version: 8.1.1
+  resolution: "@astrojs/vercel@npm:8.1.1"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.6.0"
-    "@vercel/analytics": "npm:^1.4.1"
+    "@vercel/analytics": "npm:^1.5.0"
     "@vercel/edge": "npm:^1.2.1"
-    "@vercel/nft": "npm:^0.29.0"
+    "@vercel/nft": "npm:^0.29.2"
     "@vercel/routing-utils": "npm:^5.0.4"
     esbuild: "npm:^0.25.0"
     tinyglobby: "npm:^0.2.12"
   peerDependencies:
     astro: ^5.0.0
-  checksum: 10c0/d7611f38b5dcb8f61e36547fd9512e729dee975420259422d056aaca234a75f36ddb0b4ea67f9fa6f7635183a8203e6b5b49d19aabb68ad7fea84a73274bfd4d
+  checksum: 10c0/7710c6cd2aff43f07af5805432ce67c437beac5dba1f6e052f9e9e163f1c898d9a8504e2e13d2b59e8f1fc5167e9bea3a30a1e90cc03559e199acc2eb7e70526
   languageName: node
   linkType: hard
 
@@ -1310,7 +1310,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/analytics@npm:^1.4.1":
+"@vercel/analytics@npm:^1.5.0":
   version: 1.5.0
   resolution: "@vercel/analytics@npm:1.5.0"
   peerDependencies:
@@ -1347,7 +1347,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/nft@npm:^0.29.0":
+"@vercel/nft@npm:^0.29.2":
   version: 0.29.2
   resolution: "@vercel/nft@npm:0.29.2"
   dependencies:
@@ -1613,8 +1613,8 @@ __metadata:
   linkType: hard
 
 "astro@npm:^5.2.5":
-  version: 5.4.1
-  resolution: "astro@npm:5.4.1"
+  version: 5.4.2
+  resolution: "astro@npm:5.4.2"
   dependencies:
     "@astrojs/compiler": "npm:^2.10.4"
     "@astrojs/internal-helpers": "npm:0.6.0"
@@ -1649,7 +1649,7 @@ __metadata:
     kleur: "npm:^4.1.5"
     magic-string: "npm:^0.30.17"
     magicast: "npm:^0.3.5"
-    mrmime: "npm:^2.0.0"
+    mrmime: "npm:^2.0.1"
     neotraverse: "npm:^0.6.18"
     p-limit: "npm:^6.2.0"
     p-queue: "npm:^8.1.0"
@@ -1662,26 +1662,26 @@ __metadata:
     shiki: "npm:^1.29.2"
     tinyexec: "npm:^0.3.2"
     tinyglobby: "npm:^0.2.12"
-    tsconfck: "npm:^3.1.4"
+    tsconfck: "npm:^3.1.5"
     ultrahtml: "npm:^1.5.3"
     unist-util-visit: "npm:^5.0.0"
-    unstorage: "npm:^1.14.4"
+    unstorage: "npm:^1.15.0"
     vfile: "npm:^6.0.3"
     vite: "npm:^6.2.0"
-    vitefu: "npm:^1.0.5"
+    vitefu: "npm:^1.0.6"
     which-pm: "npm:^3.0.1"
     xxhash-wasm: "npm:^1.1.0"
     yargs-parser: "npm:^21.1.1"
-    yocto-spinner: "npm:^0.2.0"
-    zod: "npm:^3.24.1"
-    zod-to-json-schema: "npm:^3.24.1"
+    yocto-spinner: "npm:^0.2.1"
+    zod: "npm:^3.24.2"
+    zod-to-json-schema: "npm:^3.24.3"
     zod-to-ts: "npm:^1.2.0"
   dependenciesMeta:
     sharp:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/4adda49e77df15a50eb139ce0cb1b53236fbb8b9e9c69d5016e2dc352d437dfe6a9b3c27682a01862636a6d52827719eb954a70562b8f454e01d54345c8ad094
+  checksum: 10c0/891b58cf247eef915f719d3dc01bb896f67897a5a16a90a17c558c4c13eab3cb841f7c11d7f5c9a402808a802fbd3c67e446d087a500309e564eff0308e3e795
   languageName: node
   linkType: hard
 
@@ -3029,12 +3029,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.4.9":
-  version: 12.4.9
-  resolution: "framer-motion@npm:12.4.9"
+"framer-motion@npm:^12.4.10":
+  version: 12.4.10
+  resolution: "framer-motion@npm:12.4.10"
   dependencies:
-    motion-dom: "npm:^12.4.5"
-    motion-utils: "npm:^12.0.0"
+    motion-dom: "npm:^12.4.10"
+    motion-utils: "npm:^12.4.10"
     tslib: "npm:^2.4.0"
   peerDependencies:
     "@emotion/is-prop-valid": "*"
@@ -3047,7 +3047,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/8c24f23a2131fcaad34ef854fead57f9e1c17fe81c860241903566e5fd6e6e247004e1293002abab9840d60226277476fdeae51f820332d240a0d32edf1769ce
+  checksum: 10c0/8cc18ea5739c3f79c6dff95d5eddca81508e56bbff966caad9bb1ac02bf47fec6505b7547959902597c00e9addb90c5d60a2f620dd4c24ddee23aae328cec685
   languageName: node
   linkType: hard
 
@@ -5041,27 +5041,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"motion-dom@npm:^12.4.5":
-  version: 12.4.5
-  resolution: "motion-dom@npm:12.4.5"
+"motion-dom@npm:^12.4.10":
+  version: 12.4.10
+  resolution: "motion-dom@npm:12.4.10"
   dependencies:
-    motion-utils: "npm:^12.0.0"
-  checksum: 10c0/2950f3023f09a31d6a86115476d6207f998a64545ea49ff0fddd772d1406b166efca895ab9db9dc87953b3a9154c56aa6df693b52c26ae083b3f665c152f8675
+    motion-utils: "npm:^12.4.10"
+  checksum: 10c0/6d9f17f312622a4e969e0edea11efbd411204b6e19a9b39e5e9e9d17222c7be0f421df355ca12a762096b5a9957a9d8a4e34fb0120b7f5f5c91ed987ea6a6e7e
   languageName: node
   linkType: hard
 
-"motion-utils@npm:^12.0.0":
-  version: 12.0.0
-  resolution: "motion-utils@npm:12.0.0"
-  checksum: 10c0/ca6cc7542d00afab011130fcd940e5f5a412b21a4eaeb17c0a497dcb86de311dda90741eeca7de1276cc8c1dff7ac1e6a8df1e8cebb1191a2c43bfe8368dc70b
+"motion-utils@npm:^12.4.10":
+  version: 12.4.10
+  resolution: "motion-utils@npm:12.4.10"
+  checksum: 10c0/5788836c42fad17a07c877cf4a7e407570e2f3125bc821f6673ee3f0e81b6b9c6b8faaa38c8c17c5a82d2b07484fc50162f29de2c69d80f685213fb0012b257b
   languageName: node
   linkType: hard
 
 "motion@npm:^12.0.5":
-  version: 12.4.9
-  resolution: "motion@npm:12.4.9"
+  version: 12.4.10
+  resolution: "motion@npm:12.4.10"
   dependencies:
-    framer-motion: "npm:^12.4.9"
+    framer-motion: "npm:^12.4.10"
     tslib: "npm:^2.4.0"
   peerDependencies:
     "@emotion/is-prop-valid": "*"
@@ -5074,11 +5074,11 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/ba1ea7e217e9399a1d0f55e7968bf042eed2cb1dbd3fa795775e1a5148d58034cabd2dadf756c8f70b48a79cced39c34a1f2d2eacb299fd43bc7e55d1e044381
+  checksum: 10c0/b20f936d4376b8184b262f319d59af633d436f21dffb3b229dbee700a7a2c38aa7457d21685dc8d685a781821657a22cc08a9f3f293b7d8f3f98697dd53e79c2
   languageName: node
   linkType: hard
 
-"mrmime@npm:^2.0.0":
+"mrmime@npm:^2.0.1":
   version: 2.0.1
   resolution: "mrmime@npm:2.0.1"
   checksum: 10c0/af05afd95af202fdd620422f976ad67dc18e6ee29beb03dd1ce950ea6ef664de378e44197246df4c7cdd73d47f2e7143a6e26e473084b9e4aa2095c0ad1e1761
@@ -6623,7 +6623,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfck@npm:^3.1.4":
+"tsconfck@npm:^3.1.5":
   version: 3.1.5
   resolution: "tsconfck@npm:3.1.5"
   peerDependencies:
@@ -6916,7 +6916,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unstorage@npm:^1.14.4":
+"unstorage@npm:^1.15.0":
   version: 1.15.0
   resolution: "unstorage@npm:1.15.0"
   dependencies:
@@ -7086,7 +7086,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitefu@npm:^1.0.5":
+"vitefu@npm:^1.0.6":
   version: 1.0.6
   resolution: "vitefu@npm:1.0.6"
   peerDependencies:
@@ -7318,7 +7318,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yocto-spinner@npm:^0.2.0":
+"yocto-spinner@npm:^0.2.1":
   version: 0.2.1
   resolution: "yocto-spinner@npm:0.2.1"
   dependencies:
@@ -7334,7 +7334,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod-to-json-schema@npm:^3.24.1":
+"zod-to-json-schema@npm:^3.24.3":
   version: 3.24.3
   resolution: "zod-to-json-schema@npm:3.24.3"
   peerDependencies:
@@ -7353,7 +7353,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:^3.24.1":
+"zod@npm:^3.24.2":
   version: 3.24.2
   resolution: "zod@npm:3.24.2"
   checksum: 10c0/c638c7220150847f13ad90635b3e7d0321b36cce36f3fc6050ed960689594c949c326dfe2c6fa87c14b126ee5d370ccdebd6efb304f41ef5557a4aaca2824565
