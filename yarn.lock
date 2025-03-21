@@ -80,8 +80,8 @@ __metadata:
   linkType: hard
 
 "@astrojs/vercel@npm:^8.0.6":
-  version: 8.1.2
-  resolution: "@astrojs/vercel@npm:8.1.2"
+  version: 8.1.3
+  resolution: "@astrojs/vercel@npm:8.1.3"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.6.1"
     "@vercel/analytics": "npm:^1.5.0"
@@ -92,7 +92,7 @@ __metadata:
     tinyglobby: "npm:^0.2.12"
   peerDependencies:
     astro: ^5.0.0
-  checksum: 10c0/adb2a84171feb515873ca934ccecc008571ca1f02b6a9ed37b75533553c6a371be70908703b436c009486a3c816614c4c60e357e2fa90d1e04f7cfa57a763d6a
+  checksum: 10c0/a863ef20fe3b53af0ec9cd8e6b905711e2f27f2cbb1df48c43d7687b9458b44b277c2e41bd12774a4c64f87f7e70d5a0ea511f7f2512f7469aeaa4e0b8564b05
   languageName: node
   linkType: hard
 
@@ -1123,13 +1123,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/cookie@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "@types/cookie@npm:0.6.0"
-  checksum: 10c0/5b326bd0188120fb32c0be086b141b1481fec9941b76ad537f9110e10d61ee2636beac145463319c71e4be67a17e85b81ca9e13ceb6e3bb63b93d16824d6c149
-  languageName: node
-  linkType: hard
-
 "@types/debug@npm:^4.0.0":
   version: 4.1.12
   resolution: "@types/debug@npm:4.1.12"
@@ -1652,8 +1645,8 @@ __metadata:
   linkType: hard
 
 "astro@npm:^5.2.5":
-  version: 5.5.3
-  resolution: "astro@npm:5.5.3"
+  version: 5.5.4
+  resolution: "astro@npm:5.5.4"
   dependencies:
     "@astrojs/compiler": "npm:^2.11.0"
     "@astrojs/internal-helpers": "npm:0.6.1"
@@ -1661,7 +1654,6 @@ __metadata:
     "@astrojs/telemetry": "npm:3.2.0"
     "@oslojs/encoding": "npm:^1.1.0"
     "@rollup/pluginutils": "npm:^5.1.4"
-    "@types/cookie": "npm:^0.6.0"
     acorn: "npm:^8.14.1"
     aria-query: "npm:^5.3.2"
     axobject-query: "npm:^4.1.0"
@@ -1669,7 +1661,7 @@ __metadata:
     ci-info: "npm:^4.2.0"
     clsx: "npm:^2.1.1"
     common-ancestor-path: "npm:^1.0.1"
-    cookie: "npm:^0.7.2"
+    cookie: "npm:^1.0.2"
     cssesc: "npm:^3.0.0"
     debug: "npm:^4.4.0"
     deterministic-object-hash: "npm:^2.0.2"
@@ -1719,7 +1711,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/4de3f8d85fa9079eabf2c9f80a85cb494dfe62ffe8a0c3b02889a83585efee9b27e089c737505dc5d211ef10ff86caecfed2b42866abc953ad6d0df496943a9d
+  checksum: 10c0/8f2f1a251ee976ce7a8c7f5cc3b620738721bfdccf8dc4a03e7849180ea257d3711990a78dc5b4bc2f2421287f6a9a5446ae98eb93556de610c59490860f2792
   languageName: node
   linkType: hard
 
@@ -2097,10 +2089,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cookie@npm:^0.7.2":
-  version: 0.7.2
-  resolution: "cookie@npm:0.7.2"
-  checksum: 10c0/9596e8ccdbf1a3a88ae02cf5ee80c1c50959423e1022e4e60b91dd87c622af1da309253d8abdb258fb5e3eacb4f08e579dc58b4897b8087574eee0fd35dfa5d2
+"cookie@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "cookie@npm:1.0.2"
+  checksum: 10c0/fd25fe79e8fbcfcaf6aa61cd081c55d144eeeba755206c058682257cb38c4bd6795c6620de3f064c740695bb65b7949ebb1db7a95e4636efb8357a335ad3f54b
   languageName: node
   linkType: hard
 
