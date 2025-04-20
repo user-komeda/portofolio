@@ -7,76 +7,151 @@ const response = await getPortfolioList({ limit: 3 })
 ---
 
 <Layout>
-  <section id="home" class="flex flex-col">
-    <article class="text-gray-950 dark:text-white text-pretty mx-auto">
-      <h1 class="text-4xl md:text-6xl font-bold max-w-screen-sm">
-        Welcome 👋, I'm Carlos Miguel
-      </h1>
-      <div class="flex flex-col gap-6 mt-8">
-        <h2 class="font-bold text-xl sm:text-2xl">
-          Available to help you with:
+  <h1 class="text-4xl md:text-6xl font-bold max-w-screen-sm mx-auto">
+    Welcome 👋, I'm Shinnosuke komeda
+  </h1>
+  <section id="profile" class="flex flex-col">
+    <article class="flex flex-col md:flex-row gap-4">
+      <Card className="text-gray-600 dark:text-gray-400 h-fit">
+        <h2
+          class="text-2xl md:text-4xl font-bold text-gray-950 dark:text-white mb-4"
+        >
+          Profile
         </h2>
-        <div class="flex flex-col sm:flex-row gap-4 overflow-hidden relative">
-          <Card className="card">
-            <div
-              class="rounded-full p-4 grid place-content-center bg-blue-50 text-blue-500 dark:bg-blue-950/30 dark:text-blue-700 w-fit"
-            >
-              <svg
-                class="size-8"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 640 512"
-                ><path
-                  d="M128 32C92.7 32 64 60.7 64 96l0 256 64 0 0-256 384 0 0 256 64 0 0-256c0-35.3-28.7-64-64-64L128 32zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480l486.4 0c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2L19.2 384z"
-                ></path></svg
+        <div class="flex flex-col gap-2 text-sm sm:text-base ml-4">
+          <ul class="flex flex-col gap-2">
+            <li class="font-semibold">name: 米田真之介</li>
+            <li class="font-semibold">age: 29</li>
+            <li class="font-semibold">
+              Speciality: フロントエンド,バックエンド
+            </li>
+            <li class="font-semibold">
+              Account: <a
+                class="font-semibold text-blue-600 dark:text-blue-500 hover:underline"
+                href="https://github.com/user-komeda">Github</a
               >
-            </div>
-            <h2 class="font-semibold text-lg sm:text-xl md:text-2xl">
-              Frontend Development
-            </h2>
-            <p class="text-gray-600 text-sm sm:text-base dark:text-gray-400">
-              Expert in creating dynamic and responsive user interfaces using
-              <span class="text-blue-700 dark:text-blue-500"
-                >Angular and Astro</span
-              >. I bring your designs to life with clean, efficient, and
-              maintainable code.
-            </p>
-          </Card>
-          <Card className="card">
-            <div
-              class="rounded-full p-4 grid place-content-center bg-yellow-50 text-yellow-500 dark:bg-yellow-950/30 dark:text-yellow-700 w-fit"
-            >
-              <svg
-                class="size-8"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                ><path
-                  d="M64 32C28.7 32 0 60.7 0 96l0 64c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64L64 32zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm48 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM64 288c-35.3 0-64 28.7-64 64l0 64c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64L64 288zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
-                ></path></svg
+            </li>
+            <li class="font-semibold">Mail: shigoto922@gmail.com</li>
+            <li class="font-semibold">
+              <a
+                class="text-blue-600 dark:text-blue-500 hover:underline"
+                href="https://docs.google.com/spreadsheets/d/1Ei7G51WooD7NQymr0MAiCOFvhbQZQYvW/edit?usp=sharing&ouid=109482737775233902560&rtpof=true&sd=true"
+                >職務経歴書</a
               >
-            </div>
-            <h2 class="font-semibold text-lg sm:text-xl md:text-2xl">
-              Backend Development
-            </h2>
-            <p class="text-gray-600 text-sm sm:text-base dark:text-gray-400">
-              Skilled in building robust and scalable server-side applications
-              with <span class="text-yellow-700 dark:text-yellow-500"
-                >NestJS and Express</span
-              >. I ensure your backend is secure, efficient, and seamlessly
-              integrated with your frontend.
-            </p>
-          </Card>
+            </li>
+          </ul>
         </div>
-      </div>
+      </Card>
+    </article>
+  </section>
+  <section id="my-skills" class="flex flex-col">
+    <article class="flex flex-col md:flex-row gap-4">
+      <Card className="text-gray-600 dark:text-gray-400 h-fit">
+        <h2
+          class="text-2xl md:text-4xl font-bold text-gray-950 dark:text-white mb-8"
+        >
+          My Skill
+        </h2>
+        <div class="flex flex-col gap-2 text-sm sm:text-base ml-4">
+          <div class="flex flex-row">
+            <ul>
+              <li>
+                <ul class="flex">
+                  <li class="w-25">html:</li>
+                  <li>★★★★☆</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="flex">
+                  <li class="w-25">css:</li>
+                  <li>★★★★☆</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="flex">
+                  <li class="w-25">typescript:</li>
+                  <li>★★★★☆</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="flex">
+                  <li class="w-25">react:</li>
+                  <li>★★★★☆</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="flex">
+                  <li class="w-25">nextjs:</li>
+                  <li>★★★★☆</li>
+                </ul>
+              </li>
+              <li></li>
+              <li>
+                <ul class="flex">
+                  <li class="w-25">java:</li>
+                  <li>★★★★★</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="flex">
+                  <li class="w-25">springboot:</li>
+                  <li>★★★★☆</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="flex">
+                  <li class="w-25">kotlin:</li>
+                  <li>★★★☆☆</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="ml-8">
+              <li>
+                <ul class="flex">
+                  <li class="w-25">blazor:</li>
+                  <li>★☆☆☆☆</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="flex">
+                  <li class="w-25">rails:</li>
+                  <li>★☆☆☆☆</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="flex">
+                  <li class="w-25">go:</li>
+                  <li>★☆☆☆☆</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="flex">
+                  <li class="w-25">Astrojs:</li>
+                  <li>★☆☆☆☆</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <small class="mt-4">
+            目安
+            <ul>
+              <li>★★★★★: 実務経験5年以上</li>
+              <li>★★★★☆: 実務経験3年以上</li>
+              <li>★★★☆☆: 実務経験あり</li>
+              <li>★★☆☆☆: 独学成果物あり</li>
+              <li>★☆☆☆☆: 独学</li>
+            </ul>
+          </small>
+        </div>
+      </Card>
     </article>
   </section>
 
   <section id="projects" class="flex flex-col">
     <h2
-      class="text-2xl md:text-4xl font-bold text-gray-950 dark:text-white text-end ms-auto mb-8"
+      class="text-2xl md:text-4xl font-bold text-gray-950 dark:text-white mb-４"
     >
-      プロジェクト一覧
+      Projects
     </h2>
     <div class="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {response.contents.map((project) => <Project project={project} />)}
