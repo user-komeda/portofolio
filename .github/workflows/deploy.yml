@@ -23,4 +23,10 @@ jobs:
         username: ${{secrets.SSH_USER}}
         passphrase: ${{secrets.SSH_PASSPHRASE}}
         port: ${{secrets.PORT}}
-        script: whoami
+        script: |
+          cd portofolio
+          git pull origin main
+          yarn build
+          sudo mv dist /usr/share/nginx/html/demo/
+          sudo systemctl restart nginx
+          
