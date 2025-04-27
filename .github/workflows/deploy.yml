@@ -14,3 +14,11 @@ jobs:
         oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT }}
         oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
         tags: tag:cicd
+    - name: Execute remote SSH commands using password
+      uses: appleboy/ssh-action@v1
+      with:
+        host: ${{ secrets.HOST }}
+        username: linuxserver.io
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        script: whoami
