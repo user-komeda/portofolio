@@ -1,0 +1,11 @@
+---
+interface Props {
+  level: number
+}
+
+const { level } = Astro.props
+---
+
+<li>
+  {'★'.repeat(level) + '☆'.repeat(5 - level)}
+</li>

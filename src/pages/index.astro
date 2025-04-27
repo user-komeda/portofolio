@@ -3,7 +3,13 @@ import Card from '../components/Card.astro'
 import Layout from '../layouts/Layout.astro'
 import Project from '../components/Project.astro'
 import getPortfolioList from '../api/getPortfolioList'
-const response = await getPortfolioList({ limit: 3 })
+import getTagList from '../api/gettagList'
+import Star from '../components/Star.astro'
+import chunk from '../utils/chunk'
+const portfolio = await getPortfolioList({ limit: 3 })
+const tagList = await getTagList()
+const spitedTagList = chunk(tagList.contents, 8)
+const spitedTagListLen = spitedTagList.length
 ---
 
 <Layout>
@@ -54,83 +60,24 @@ const response = await getPortfolioList({ limit: 3 })
         </h2>
         <div class="flex flex-col gap-2 text-sm sm:text-base ml-4">
           <div class="flex flex-row">
-            <ul>
-              <li>
-                <ul class="flex">
-                  <li class="w-25">html:</li>
-                  <li>★★★★☆</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="flex">
-                  <li class="w-25">css:</li>
-                  <li>★★★★☆</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="flex">
-                  <li class="w-25">typescript:</li>
-                  <li>★★★★☆</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="flex">
-                  <li class="w-25">react:</li>
-                  <li>★★★★☆</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="flex">
-                  <li class="w-25">nextjs:</li>
-                  <li>★★★★☆</li>
-                </ul>
-              </li>
-              <li></li>
-              <li>
-                <ul class="flex">
-                  <li class="w-25">java:</li>
-                  <li>★★★★★</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="flex">
-                  <li class="w-25">springboot:</li>
-                  <li>★★★★☆</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="flex">
-                  <li class="w-25">kotlin:</li>
-                  <li>★★★☆☆</li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="ml-8">
-              <li>
-                <ul class="flex">
-                  <li class="w-25">blazor:</li>
-                  <li>★☆☆☆☆</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="flex">
-                  <li class="w-25">rails:</li>
-                  <li>★☆☆☆☆</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="flex">
-                  <li class="w-25">go:</li>
-                  <li>★☆☆☆☆</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="flex">
-                  <li class="w-25">Astrojs:</li>
-                  <li>★☆☆☆☆</li>
-                </ul>
-              </li>
-            </ul>
+            {
+              [...Array(spitedTagListLen)].map((_, index) => {
+                return (
+                  <ul class={index > 0 ? 'ml-8' : ''}>
+                    {spitedTagList[index].map((tag) => {
+                      return (
+                        <li>
+                          <ul class="flex">
+                            <li class="w-25">{tag.tag}</li>
+                            <Star level={tag.level} />
+                          </ul>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                )
+              })
+            }
           </div>
           <small class="mt-4">
             目安
@@ -154,7 +101,7 @@ const response = await getPortfolioList({ limit: 3 })
       Projects
     </h2>
     <div class="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {response.contents.map((project) => <Project project={project} />)}
+      {portfolio.contents.map((project) => <Project project={project} />)}
     </div>
     <div class="mt-6 flex justify-center">
       <a
