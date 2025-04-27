@@ -18,4 +18,5 @@ const getPortfolioList = async (queries?: MicroCMSQueries) => {
   const client = createMicroCmsClient()
   return await client.getList<Portfolio>({ endpoint: 'portfolio', queries })
 }
+
 export default getPortfolioList
