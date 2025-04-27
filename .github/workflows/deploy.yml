@@ -2,8 +2,6 @@ name: deploy-github-actions
 # トリガーの設定
 on:
   push:
-    branches:
-      - master
   workflow_dispatch:
   
 jobs:
