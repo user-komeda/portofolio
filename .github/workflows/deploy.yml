@@ -27,6 +27,7 @@ jobs:
           cd portofolio
           git pull origin main
           yarn build
+          sudo rm -rf /usr/share/nginx/html/demo/dist
           sudo mv dist /usr/share/nginx/html/demo/
           sudo systemctl restart nginx
           
