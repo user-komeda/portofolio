@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest # 実行環境の設定
     steps:
     - name: Tailscale
-      uses: tailscale/github-action@v3
+      uses: tailscale/github-action@5d536117a7378beffcd6d8523ce73c50fa98684d # v3
       with:
         oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT }}
         oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
         tags: tag:cicd
     - name: Execute remote SSH commands using password
-      uses: appleboy/ssh-action@v1
+      uses: appleboy/ssh-action@2ead5e36573f08b82fbfce1504f1a4b05a647c6f # v1
       with:
         key: ${{ secrets.KEY }}
         host: ${{secrets.HOST}}
