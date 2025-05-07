@@ -6419,11 +6419,11 @@ __metadata:
   linkType: hard
 
 "resend@npm:^4.1.2":
-  version: 4.5.0
-  resolution: "resend@npm:4.5.0"
+  version: 4.5.1
+  resolution: "resend@npm:4.5.1"
   dependencies:
     "@react-email/render": "npm:1.0.6"
-  checksum: 10c0/9795bdada58e1a58dd1e753d0486d52490dc422bf3e3fff5fc7d5193b9001f333c5b4817f345637b93c1bd5cf3f0d84538a3dd2ba774bcfdf4c24809c6abab82
+  checksum: 10c0/a9a729942c589b7aef19add13cf2b398ee63a5a21c00d87d0a8430d736e5317d41b284bca86156672c79a353bd02e584783f3030f085720f70f25f6973808303
   languageName: node
   linkType: hard
 
