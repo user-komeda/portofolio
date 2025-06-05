@@ -837,17 +837,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-email/render@npm:1.0.6":
-  version: 1.0.6
-  resolution: "@react-email/render@npm:1.0.6"
+"@react-email/render@npm:1.1.2":
+  version: 1.1.2
+  resolution: "@react-email/render@npm:1.1.2"
   dependencies:
-    html-to-text: "npm:9.0.5"
-    prettier: "npm:3.5.3"
-    react-promise-suspense: "npm:0.3.4"
+    html-to-text: "npm:^9.0.5"
+    prettier: "npm:^3.5.3"
+    react-promise-suspense: "npm:^0.3.4"
   peerDependencies:
     react: ^18.0 || ^19.0 || ^19.0.0-rc
     react-dom: ^18.0 || ^19.0 || ^19.0.0-rc
-  checksum: 10c0/a7a1cea041caba92690549b9d9d3c2bf6d6ab8f4bb11784ab27b9ff758d124666a15f065fcbecdfa886a298fe5076da387092842e2b82378eed7ee1dd150a4c3
+  checksum: 10c0/def0039a24b797d962d7dcb3a3401c093aa0115545284e00863de4066a826a3e4977b8f2c65b1f3bf77352bee5595e0dedf166ea52467dcb7080e14785e1c3ac
   languageName: node
   linkType: hard
 
@@ -3798,7 +3798,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-to-text@npm:9.0.5":
+"html-to-text@npm:^9.0.5":
   version: 9.0.5
   resolution: "html-to-text@npm:9.0.5"
   dependencies:
@@ -5891,7 +5891,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.5.3":
+"prettier@npm:3.5.3, prettier@npm:^3.5.3":
   version: 3.5.3
   resolution: "prettier@npm:3.5.3"
   bin:
@@ -5978,7 +5978,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-promise-suspense@npm:0.3.4":
+"react-promise-suspense@npm:^0.3.4":
   version: 0.3.4
   resolution: "react-promise-suspense@npm:0.3.4"
   dependencies:
@@ -6164,11 +6164,11 @@ __metadata:
   linkType: hard
 
 "resend@npm:^4.1.2":
-  version: 4.5.1
-  resolution: "resend@npm:4.5.1"
+  version: 4.5.2
+  resolution: "resend@npm:4.5.2"
   dependencies:
-    "@react-email/render": "npm:1.0.6"
-  checksum: 10c0/a9a729942c589b7aef19add13cf2b398ee63a5a21c00d87d0a8430d736e5317d41b284bca86156672c79a353bd02e584783f3030f085720f70f25f6973808303
+    "@react-email/render": "npm:1.1.2"
+  checksum: 10c0/ecf937d438578062629770d5fca81df545d7012f3b574f05e69c920c4007426254d668bf9d7ea852d2ed6dc46facfd260a691051b976f64fdf68bf1c6f726294
   languageName: node
   linkType: hard
 
