@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest # 実行環境の設定
     steps:
     - name: Tailscale
-      uses: tailscale/github-action@6986d2c82a91fbac2949fe01f5bab95cf21b5102 # v3
+      uses: tailscale/github-action@84a3f23bb4d843bcf4da6cf824ec1be473daf4de # v3
       with:
         oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT }}
         oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
