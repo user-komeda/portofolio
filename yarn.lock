@@ -29,18 +29,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/internal-helpers@npm:0.6.1":
-  version: 0.6.1
-  resolution: "@astrojs/internal-helpers@npm:0.6.1"
-  checksum: 10c0/2f03ea5d8a673f74f153ea4fb3ec3e50399093f4bea0e2aaebf6ef3ae336be3f7dfb13abfdffe1953814b5b870d59d641937d271822881778600fe47d99e7ef3
+"@astrojs/internal-helpers@npm:0.7.1":
+  version: 0.7.1
+  resolution: "@astrojs/internal-helpers@npm:0.7.1"
+  checksum: 10c0/f14fa470d16b04d968f3d63826b158ed981befdb899d296f62e1d3d2b5d3ab164bfa60ceea97c072beb39ff5c7df5e054234d1a3af9a0f42df10780d50655f95
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:6.3.3":
-  version: 6.3.3
-  resolution: "@astrojs/markdown-remark@npm:6.3.3"
+"@astrojs/markdown-remark@npm:6.3.5":
+  version: 6.3.5
+  resolution: "@astrojs/markdown-remark@npm:6.3.5"
   dependencies:
-    "@astrojs/internal-helpers": "npm:0.6.1"
+    "@astrojs/internal-helpers": "npm:0.7.1"
     "@astrojs/prism": "npm:3.3.0"
     github-slugger: "npm:^2.0.0"
     hast-util-from-html: "npm:^2.0.3"
@@ -61,7 +61,7 @@ __metadata:
     unist-util-visit: "npm:^5.0.0"
     unist-util-visit-parents: "npm:^6.0.1"
     vfile: "npm:^6.0.3"
-  checksum: 10c0/0df9cabe2da0547d9aec0267339b5ecbcb64f95f4a2d365484d2262eda0e140bf8229f9d65e4bdcb5607a8d20c91f81583bba657733c0e1c1257ee58bbcc51cd
+  checksum: 10c0/ab559b3d13068ad0aeacf04cdfe8c76544dd3d5a857252406c20c541bb9288e5351f146cf4884b471101b52492947b8559525f8b9502b607714cd191b83325cf
   languageName: node
   linkType: hard
 
@@ -90,19 +90,19 @@ __metadata:
   linkType: hard
 
 "@astrojs/vercel@npm:^8.0.6":
-  version: 8.2.3
-  resolution: "@astrojs/vercel@npm:8.2.3"
+  version: 8.2.5
+  resolution: "@astrojs/vercel@npm:8.2.5"
   dependencies:
-    "@astrojs/internal-helpers": "npm:0.6.1"
+    "@astrojs/internal-helpers": "npm:0.7.1"
     "@vercel/analytics": "npm:^1.5.0"
-    "@vercel/edge": "npm:^1.2.1"
+    "@vercel/functions": "npm:^2.2.2"
     "@vercel/nft": "npm:^0.29.2"
     "@vercel/routing-utils": "npm:^5.0.4"
     esbuild: "npm:^0.25.0"
     tinyglobby: "npm:^0.2.13"
   peerDependencies:
     astro: ^5.0.0
-  checksum: 10c0/df04fdd2721ea03440973092fb4c5e18f3dae964ff45581fd4ba04f050abe113b907dbbf74912cdcd9818a4c046c7e2dbeb1ff66ac2c888b9ab40679e13b53ae
+  checksum: 10c0/8ae64baa9ed6ed8dd54fbc66995817d156d0522d862d864b0445df548a0851291b22ef87cbbcd66d7ad098f596396c86b40e76530aeaf89a3be421d984e7628a
   languageName: node
   linkType: hard
 
@@ -1568,10 +1568,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/edge@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "@vercel/edge@npm:1.2.1"
-  checksum: 10c0/ace3cc730a8d8fd37b2849d2b5240adbf1d888f4af9332082adc5cc63e3df109aca2dbc0db30a1fe79b1812946d27a03c4008edaee9d860226c1f1048444d966
+"@vercel/functions@npm:^2.2.2":
+  version: 2.2.8
+  resolution: "@vercel/functions@npm:2.2.8"
+  dependencies:
+    "@vercel/oidc": "npm:2.0.0"
+  peerDependencies:
+    "@aws-sdk/credential-provider-web-identity": "*"
+  peerDependenciesMeta:
+    "@aws-sdk/credential-provider-web-identity":
+      optional: true
+  checksum: 10c0/ace322af7d90a021a83d3ca909168ee6cc2bc89f9602828aa244ad84a4c8aed5b2d16a5ac9b019768cf24a614e99cc3ccf3fb6ef950a16f89a2586329c0d3283
   languageName: node
   linkType: hard
 
@@ -1594,6 +1601,13 @@ __metadata:
   bin:
     nft: out/cli.js
   checksum: 10c0/3f1e3d3d2565e6e4ac191fc4f9b9b9676959de82165d6ae789410c5c0df058802f2ff9221ac325857ddc1f11f30509c73e01c43f0a91b56371d595a2eab5205f
+  languageName: node
+  linkType: hard
+
+"@vercel/oidc@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@vercel/oidc@npm:2.0.0"
+  checksum: 10c0/a14685faef6d06bb80543d88a08481ef7b92884bec2f621596f0b62d201425d8cfc9ccba8de066c84485985e435e9c40ed47105c3306895589eae1bd856c9acf
   languageName: node
   linkType: hard
 
@@ -1843,12 +1857,12 @@ __metadata:
   linkType: hard
 
 "astro@npm:^5.2.5":
-  version: 5.12.4
-  resolution: "astro@npm:5.12.4"
+  version: 5.12.8
+  resolution: "astro@npm:5.12.8"
   dependencies:
     "@astrojs/compiler": "npm:^2.12.2"
-    "@astrojs/internal-helpers": "npm:0.6.1"
-    "@astrojs/markdown-remark": "npm:6.3.3"
+    "@astrojs/internal-helpers": "npm:0.7.1"
+    "@astrojs/markdown-remark": "npm:6.3.5"
     "@astrojs/telemetry": "npm:3.3.0"
     "@capsizecss/unpack": "npm:^2.4.0"
     "@oslojs/encoding": "npm:^1.1.0"
@@ -1914,7 +1928,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/ff4656e6fd9b6e7ab3ae35cb59129a368b74162de57d21e8cfcbca04de40a82483754cd851791aabc74d972301e6eb410add455a8ea8de15a1b5b016a5e6f9e4
+  checksum: 10c0/dd1f01fc3effc4574d8c3de05edf4a6d57cf5a073b30423a80d80ca3cdb96be8fc82d3808e99983d839d0fd1bc607dbaedd38e4fd56fca4dd9e981451c284096
   languageName: node
   linkType: hard
 
