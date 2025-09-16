@@ -6285,14 +6285,14 @@ __metadata:
   linkType: hard
 
 "resend@npm:^6.0.0":
-  version: 6.0.3
-  resolution: "resend@npm:6.0.3"
+  version: 6.1.0
+  resolution: "resend@npm:6.1.0"
   peerDependencies:
     "@react-email/render": ^1.1.0
   peerDependenciesMeta:
     "@react-email/render":
       optional: true
-  checksum: 10c0/b038622b0f297b606595e8a699396708c9c3feac68c602740a717686a7ec979ea83e3985c8858708c8e9a285da9fbd52bcd9e71e6ec82ef4a7904fb131281b04
+  checksum: 10c0/cfa07559407a811af3844d4eacca4e96ae7d530e8a6577998d6a42133498e36a5cbb373ad65da834cee7da9b633ecef123526d3952c637436e967affbb28051a
   languageName: node
   linkType: hard
 
