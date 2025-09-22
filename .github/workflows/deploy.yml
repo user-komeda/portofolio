@@ -26,6 +26,7 @@ jobs:
         script: |
           cd portofolio
           git pull origin main
+          yarn install 
           yarn build
           sudo rm -rf /usr/share/nginx/html/demo/dist
           sudo mv dist /usr/share/nginx/html/demo/
