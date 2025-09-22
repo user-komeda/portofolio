@@ -30,5 +30,7 @@ jobs:
           yarn build
           sudo rm -rf /usr/share/nginx/html/demo/dist
           sudo mv dist /usr/share/nginx/html/demo/
+          sudo semanage fcontext -a -t httpd_sys_content_t "/usr/share/nginx/html/demo/dist(/.*)?"
+          sudo restorecon -Rv /usr/share/nginx/html/demo/dist
           sudo systemctl restart nginx
           
