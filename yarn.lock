@@ -6255,8 +6255,8 @@ __metadata:
   linkType: hard
 
 "resend@npm:^6.0.0":
-  version: 6.2.0
-  resolution: "resend@npm:6.2.0"
+  version: 6.2.1
+  resolution: "resend@npm:6.2.1"
   dependencies:
     svix: "npm:1.76.1"
   peerDependencies:
@@ -6264,7 +6264,7 @@ __metadata:
   peerDependenciesMeta:
     "@react-email/render":
       optional: true
-  checksum: 10c0/864e42966cfad59eea776cc1d207ff70f6b0aefdee227c3887c8f28ac7852a50ea76231861bc4f3d853f635b46a1b5916c478b3c690415ea5224e9c09a443f99
+  checksum: 10c0/1c4309f8642668851024cf739df301169c4aefc2f1a44b340a28a395fc7da78aef40909bdf82331405631afd9dfc8b764daa27eb632b2a1ebeb6affed9477d46
   languageName: node
   linkType: hard
 
