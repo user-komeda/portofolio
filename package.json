@@ -33,7 +33,7 @@
     "lefthook": "2.0.12",
     "prettier": "3.7.4",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.50.0"
+    "typescript-eslint": "8.50.1"
   },
   "packageManager": "yarn@4.12.0"
 }
