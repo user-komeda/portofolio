@@ -81,8 +81,8 @@ __metadata:
   linkType: hard
 
 "@astrojs/vercel@npm:^10.0.0":
-  version: 10.0.1
-  resolution: "@astrojs/vercel@npm:10.0.1"
+  version: 10.0.2
+  resolution: "@astrojs/vercel@npm:10.0.2"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.8.0"
     "@vercel/analytics": "npm:^1.6.1"
@@ -93,7 +93,7 @@ __metadata:
     tinyglobby: "npm:^0.2.15"
   peerDependencies:
     astro: ^6.0.0
-  checksum: 10c0/2ff897f7cb315d55afd7cec909b5d0c7e9e645440c69ac4be28c710ba3dae2bf1d1653aea4ae58688a78a4db2eefa3c941ae7256a980b32d1575eb905b52702c
+  checksum: 10c0/dc1ff77476114e8878f576bf91446debe7c44de5be02e07a832c31b701855b6a9a9361e069392de571c267710390265fd1bbeb9196c7780dff37586762758ede
   languageName: node
   linkType: hard
 
@@ -1837,8 +1837,8 @@ __metadata:
   linkType: hard
 
 "astro@npm:^6.0.0":
-  version: 6.0.6
-  resolution: "astro@npm:6.0.6"
+  version: 6.0.8
+  resolution: "astro@npm:6.0.8"
   dependencies:
     "@astrojs/compiler": "npm:^3.0.0"
     "@astrojs/internal-helpers": "npm:0.8.0"
@@ -1901,7 +1901,7 @@ __metadata:
       optional: true
   bin:
     astro: bin/astro.mjs
-  checksum: 10c0/4adaae3bba71e98f652db7d87f65416999af6c1a42295274ca57eea42738474fdb6e38105a378f10be8849c8474852dce91a09ead7c3261951093aa5b5138fdc
+  checksum: 10c0/f03844c0ac4dbf506a36fabd3211b81262a2d620ceb6f5150012bd1bc80202fe015b2ce55e1efc377ad6887e0a8dad22ebd019eb6d051a6c4955fdf11cfc7776
   languageName: node
   linkType: hard
 
