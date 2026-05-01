@@ -5,10 +5,17 @@ __metadata:
   version: 9
   cacheKey: 10c0
 
-"@astrojs/compiler@npm:^2.0.0 || ^3.0.0, @astrojs/compiler@npm:^3.0.1":
+"@astrojs/compiler@npm:^2.0.0 || ^3.0.0":
   version: 3.0.1
   resolution: "@astrojs/compiler@npm:3.0.1"
   checksum: 10c0/f2ec194a6c0b18044cf77b9bc3ff48f972d3c017dbdd9f8d4512fe7b0c1abcd2996cb4b8378831f0432f7a4289248235a082b95f90a1d0c7ca7e6a5c24fe6779
+  languageName: node
+  linkType: hard
+
+"@astrojs/compiler@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@astrojs/compiler@npm:4.0.0"
+  checksum: 10c0/b82c245f88db7fe741128b2c057304866f42e87f296b2bf5962aa84e4bef1aa5c323a4fec8621db4f6ef7195cd0f90d9059c481f7d2708bbf983b481299dc5c0
   languageName: node
   linkType: hard
 
@@ -74,8 +81,8 @@ __metadata:
   linkType: hard
 
 "@astrojs/vercel@npm:^10.0.0":
-  version: 10.0.5
-  resolution: "@astrojs/vercel@npm:10.0.5"
+  version: 10.0.6
+  resolution: "@astrojs/vercel@npm:10.0.6"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.9.0"
     "@vercel/analytics": "npm:^1.6.1"
@@ -86,7 +93,7 @@ __metadata:
     tinyglobby: "npm:^0.2.15"
   peerDependencies:
     astro: ^6.0.0
-  checksum: 10c0/618c3a122938892eb00d3c8a80288862d8bb1ec07526140eb5e1d0f9c70c0452d0a0b64416d8d3ec5c5b405a16bedaf085fd8cae61d4c9f2daf352d5e7257587
+  checksum: 10c0/5dad9ec0263a8cb3d6b0594be0687428cb801f09781bd12d4740558e186e47f66d656102aa62d1f94170742255ff0118f1a9c60cd159fb0e01a519adf26c063a
   languageName: node
   linkType: hard
 
@@ -1813,10 +1820,10 @@ __metadata:
   linkType: hard
 
 "astro@npm:^6.0.0":
-  version: 6.1.9
-  resolution: "astro@npm:6.1.9"
+  version: 6.2.1
+  resolution: "astro@npm:6.2.1"
   dependencies:
-    "@astrojs/compiler": "npm:^3.0.1"
+    "@astrojs/compiler": "npm:^4.0.0"
     "@astrojs/internal-helpers": "npm:0.9.0"
     "@astrojs/markdown-remark": "npm:7.1.1"
     "@astrojs/telemetry": "npm:3.3.1"
@@ -1876,7 +1883,7 @@ __metadata:
       optional: true
   bin:
     astro: bin/astro.mjs
-  checksum: 10c0/bacb7dab6a0b0c5727a7f3247b8527e7043756bbfda5103e9efb60cef697be4c8d26185d4d3a5ab8cb8415ff4a8b5ab4cff0b2eab43f0cc9aac20389ba667dda
+  checksum: 10c0/9806044bc1c44e3eeed942c26f12690f21e9610b981aa52284951ab251cd881fa9a8b6e48740f1b05b8476e0863fa9f328af3986ac5b7e852d9c8ae05858e220
   languageName: node
   linkType: hard
 
