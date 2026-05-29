@@ -5775,17 +5775,17 @@ __metadata:
   linkType: hard
 
 "resend@npm:^6.0.0":
-  version: 6.12.3
-  resolution: "resend@npm:6.12.3"
+  version: 6.12.4
+  resolution: "resend@npm:6.12.4"
   dependencies:
     postal-mime: "npm:2.7.4"
-    svix: "npm:1.92.2"
+    standardwebhooks: "npm:1.0.0"
   peerDependencies:
     "@react-email/render": "*"
   peerDependenciesMeta:
     "@react-email/render":
       optional: true
-  checksum: 10c0/1dd2626afea69aa1225c04d08f886a4745a3a7dabdee2539101b678e5b586a6cae7e3fad528939d4a234587c930af1d7b4ddfbb87c8262b994cfc2c9427e7a1a
+  checksum: 10c0/092681171100dc704848c2bf67d7ab3ffe8ebbf6683e127a453cb45110a12c59654fd878ea2300dcc0d56fcb05558657c9d696216357d02f823a2bea305bb26c
   languageName: node
   linkType: hard
 
@@ -6370,15 +6370,6 @@ __metadata:
   bin:
     svgo: ./bin/svgo.js
   checksum: 10c0/f61f9957b42e0c97593b49a01f3b93cb239b2e818efccb056fcc866d622704d9021c4ef8bd0287264c3e4f33da60e4af14d841b4a624b87ff8888e3b896d13d5
-  languageName: node
-  linkType: hard
-
-"svix@npm:1.92.2":
-  version: 1.92.2
-  resolution: "svix@npm:1.92.2"
-  dependencies:
-    standardwebhooks: "npm:1.0.0"
-  checksum: 10c0/975fe645bbb8d746726d3fc73845e2e18a69f5f7df9340ab5c97f7e0e59497abbafc178c8405d036f43f046170147cee137761f09095358fc4a9c1e471762267
   languageName: node
   linkType: hard
 
