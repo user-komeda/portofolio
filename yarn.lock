@@ -35,15 +35,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/internal-helpers@npm:0.9.1":
-  version: 0.9.1
-  resolution: "@astrojs/internal-helpers@npm:0.9.1"
-  dependencies:
-    picomatch: "npm:^4.0.4"
-  checksum: 10c0/013453dc19271fe7ccdd239d1962a8d67a9c0763083153fd4f0e33a946c2cace32f8f90052e14aac9b70ac3313e9724c348f82a4d6fc5bc1748bd5175b277fa0
-  languageName: node
-  linkType: hard
-
 "@astrojs/markdown-remark@npm:7.2.0":
   version: 7.2.0
   resolution: "@astrojs/markdown-remark@npm:7.2.0"
@@ -92,10 +83,10 @@ __metadata:
   linkType: hard
 
 "@astrojs/vercel@npm:^10.0.0":
-  version: 10.0.7
-  resolution: "@astrojs/vercel@npm:10.0.7"
+  version: 10.0.8
+  resolution: "@astrojs/vercel@npm:10.0.8"
   dependencies:
-    "@astrojs/internal-helpers": "npm:0.9.1"
+    "@astrojs/internal-helpers": "npm:0.10.0"
     "@vercel/analytics": "npm:^1.6.1"
     "@vercel/functions": "npm:^3.4.3"
     "@vercel/nft": "npm:^1.3.2"
@@ -104,7 +95,7 @@ __metadata:
     tinyglobby: "npm:^0.2.15"
   peerDependencies:
     astro: ^6.0.0
-  checksum: 10c0/f3559279d87c19c3afebfbfea40c6ad52bc554f3b0d8042337af58b5433964549fe3533621112ba17adc017b5fcad0d4c1c997e907b7431d29992df700e5e6cb
+  checksum: 10c0/499a4542a304edf7b0f9df279648bf4d92476404f7c02ba318fcdabb4e7025f12cfc300e6d5a295676cdcafbadf9eee0d2b059d5d518ed5503d1bb56d16da120
   languageName: node
   linkType: hard
 
