@@ -28,12 +28,12 @@
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-astro": "2.0.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
-    "globals": "17.6.0",
+    "globals": "17.7.0",
     "http-server": "14.1.1",
     "lefthook": "2.1.9",
     "prettier": "3.8.4",
     "typescript": "6.0.3",
-    "typescript-eslint": "8.61.1"
+    "typescript-eslint": "8.62.0"
   },
   "packageManager": "yarn@4.17.0"
 }
