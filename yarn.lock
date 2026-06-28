@@ -1989,8 +1989,8 @@ __metadata:
   linkType: hard
 
 "astro@npm:^7.0.0":
-  version: 7.0.2
-  resolution: "astro@npm:7.0.2"
+  version: 7.0.3
+  resolution: "astro@npm:7.0.3"
   dependencies:
     "@astrojs/compiler-rs": "npm:^0.2.2"
     "@astrojs/internal-helpers": "npm:0.10.0"
@@ -2059,7 +2059,7 @@ __metadata:
       optional: true
   bin:
     astro: ./bin/astro.mjs
-  checksum: 10c0/3847bdbbfea1fe67770a6f0fdedd2534429c0abf82a77397574cecd3ecc236df3ecf9e9bda41e669ca2b015a230ca725a2e72530987000a8c9ceb30db04aea57
+  checksum: 10c0/86e095058e28b639c3cdb8591e5372ca7c321e7672ba8f59fbe100b20db448af11fe454e72cd58f15974874b0446e796dfcf6d616e0d072a1ee276f7c689de0d
   languageName: node
   linkType: hard
 
