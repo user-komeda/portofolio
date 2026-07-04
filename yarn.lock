@@ -138,6 +138,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@astrojs/internal-helpers@npm:0.10.1":
+  version: 0.10.1
+  resolution: "@astrojs/internal-helpers@npm:0.10.1"
+  dependencies:
+    "@types/hast": "npm:^3.0.4"
+    "@types/mdast": "npm:^4.0.4"
+    js-yaml: "npm:^4.1.1"
+    picomatch: "npm:^4.0.4"
+    retext-smartypants: "npm:^6.2.0"
+    shiki: "npm:^4.0.2"
+    smol-toml: "npm:^1.6.0"
+    unified: "npm:^11.0.5"
+  checksum: 10c0/1176a1399ae40fdc2bbfce69bc3c3937d298d8b284194aa965f51341edad6b9938bc5ddf5d14d8eafabe353d2de87f0b7bb1fa47605999434a5a634cf460c4ec
+  languageName: node
+  linkType: hard
+
 "@astrojs/markdown-satteri@npm:0.3.2":
   version: 0.3.2
   resolution: "@astrojs/markdown-satteri@npm:0.3.2"
@@ -173,10 +189,10 @@ __metadata:
   linkType: hard
 
 "@astrojs/vercel@npm:^11.0.0":
-  version: 11.0.0
-  resolution: "@astrojs/vercel@npm:11.0.0"
+  version: 11.0.2
+  resolution: "@astrojs/vercel@npm:11.0.2"
   dependencies:
-    "@astrojs/internal-helpers": "npm:0.10.0"
+    "@astrojs/internal-helpers": "npm:0.10.1"
     "@vercel/analytics": "npm:^1.6.1"
     "@vercel/functions": "npm:^3.4.3"
     "@vercel/nft": "npm:^1.3.2"
@@ -184,8 +200,8 @@ __metadata:
     esbuild: "npm:^0.28.0"
     tinyglobby: "npm:^0.2.15"
   peerDependencies:
-    astro: ^7.0.0-alpha.0
-  checksum: 10c0/d5ae22960d287cbad0a8f28bf05e52b1858d7136abcb50ac5131c7b6470541f45b1ff8d8bb502649119400a2db887d34fbad08a719ff7eecac8c16f9cb3b8921
+    astro: ^7.0.0
+  checksum: 10c0/dbd4f0bc52d3d1b94c48d25f86880f01b3c041a597089ea1f2dec21b457a1a024f5bbb034eee3d02b73965bc07e3db3de824fff8b291f5729847e8508e6d0799
   languageName: node
   linkType: hard
 
