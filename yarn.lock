@@ -173,8 +173,8 @@ __metadata:
   linkType: hard
 
 "@astrojs/vercel@npm:^11.0.0":
-  version: 11.0.2
-  resolution: "@astrojs/vercel@npm:11.0.2"
+  version: 11.0.3
+  resolution: "@astrojs/vercel@npm:11.0.3"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.10.1"
     "@vercel/analytics": "npm:^1.6.1"
@@ -185,7 +185,7 @@ __metadata:
     tinyglobby: "npm:^0.2.15"
   peerDependencies:
     astro: ^7.0.0
-  checksum: 10c0/dbd4f0bc52d3d1b94c48d25f86880f01b3c041a597089ea1f2dec21b457a1a024f5bbb034eee3d02b73965bc07e3db3de824fff8b291f5729847e8508e6d0799
+  checksum: 10c0/05053892fc4e66818de9aed8378292b4395bd843e07ab203b63593704e7217c3482ec2afef67f3a37d4702049c476cdc0bbafbd11942f93b961e75d16fed9608
   languageName: node
   linkType: hard
 
