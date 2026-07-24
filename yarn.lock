@@ -4912,10 +4912,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postal-mime@npm:2.7.4":
-  version: 2.7.4
-  resolution: "postal-mime@npm:2.7.4"
-  checksum: 10c0/836220ef876b8e3ae7236341a4fbff5b8bf6618952a1208966a4e3040c9f51c14572fa695b1863bd445e8d7894536d2eb4e5001f50795c3f7fbfe39c8946ba09
+"postal-mime@npm:2.7.5":
+  version: 2.7.5
+  resolution: "postal-mime@npm:2.7.5"
+  checksum: 10c0/cb258498d67529fed3fa69af98eabf6c53cbc4dd060db0a550af9952e65ffe93046a384765e2ee0269d090564ef2c66a00aec02418036bbf6aa14390d0af1955
   languageName: node
   linkType: hard
 
@@ -5088,17 +5088,17 @@ __metadata:
   linkType: hard
 
 "resend@npm:^6.0.0":
-  version: 6.17.2
-  resolution: "resend@npm:6.17.2"
+  version: 6.18.0
+  resolution: "resend@npm:6.18.0"
   dependencies:
-    postal-mime: "npm:2.7.4"
+    postal-mime: "npm:2.7.5"
     standardwebhooks: "npm:1.0.0"
   peerDependencies:
     "@react-email/render": "*"
   peerDependenciesMeta:
     "@react-email/render":
       optional: true
-  checksum: 10c0/589159fb124e8c154d99154efc12521ad3b31823baf60f31722a55ccc9397b7d3ee385480519846433124b7b5f3b0cbad826be3c2a9d7e2fd91275da13473db5
+  checksum: 10c0/40a6147221efe0ac45cc80629b974c25c9c7740d04dfebba52329fb8a6f434b8e7cde356cd5de5d4aea4b1cc640ac19345ad79646ff8c27ac829c895d8448b16
   languageName: node
   linkType: hard
 
