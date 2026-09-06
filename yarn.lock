@@ -275,8 +275,8 @@ __metadata:
   linkType: hard
 
 "@astrojs/vercel@npm:^11.0.0":
-  version: 11.0.9
-  resolution: "@astrojs/vercel@npm:11.0.9"
+  version: 11.0.10
+  resolution: "@astrojs/vercel@npm:11.0.10"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.11.0"
     "@vercel/analytics": "npm:^2.0.1"
@@ -287,7 +287,7 @@ __metadata:
     tinyglobby: "npm:^0.2.15"
   peerDependencies:
     astro: ^7.0.0
-  checksum: 10c0/7a364210ae74bd9f0e57482b492674e4b7b188bbb83848602aff8b0dbe96a0fd3c049a99322afe9e72e5fdd2d04ad810f55feccc78a66da495b8c9b487eb6548
+  checksum: 10c0/3a2cb2c8e18f0c2d912d03dfe420d00838c69aa94310778dfafc4099f029322ed8b4c1e95a5eee5989af5040353d00be5b5ae336e45c2c10d88c9f5c337f5273
   languageName: node
   linkType: hard
 
@@ -2103,8 +2103,8 @@ __metadata:
   linkType: hard
 
 "astro@npm:^7.0.0":
-  version: 7.2.10
-  resolution: "astro@npm:7.2.10"
+  version: 7.3.1
+  resolution: "astro@npm:7.3.1"
   dependencies:
     "@astrojs/compiler-rs": "npm:^0.4.0"
     "@astrojs/internal-helpers": "npm:0.11.0"
@@ -2159,7 +2159,7 @@ __metadata:
     vitefu: "npm:^1.1.2"
     xxhash-wasm: "npm:^1.1.0"
     yargs-parser: "npm:^22.0.0"
-    zod: "npm:^4.3.6"
+    zod: "npm:^4.5.4"
   peerDependencies:
     "@astrojs/markdown-remark": ^7.3.0
   dependenciesMeta:
@@ -2170,7 +2170,7 @@ __metadata:
       optional: true
   bin:
     astro: ./bin/astro.mjs
-  checksum: 10c0/f8f0e093c8194f655aa452841b736ac278b25f6f528865b885191fa62851e6cf50ee926230504ba3f44f9ea27af7c58021a46ef92cb5c56ddb653e1b0935e394
+  checksum: 10c0/5ec958fb61598c716bd5b4ac7ee80ee1c77eca355aea1be1c619048ad5c8f63bde2a7f643d3605133124828527868556ba72f9ae09d78e958e9e75a58ee39c8a
   languageName: node
   linkType: hard
 
@@ -6596,10 +6596,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:^4.3.6":
-  version: 4.3.6
-  resolution: "zod@npm:4.3.6"
-  checksum: 10c0/860d25a81ab41d33aa25f8d0d07b091a04acb426e605f396227a796e9e800c44723ed96d0f53a512b57be3d1520f45bf69c0cb3b378a232a00787a2609625307
+"zod@npm:^4.5.4":
+  version: 4.5.4
+  resolution: "zod@npm:4.5.4"
+  checksum: 10c0/511a2a4d1a6f875dfdd70a1586989a8b14ef126776cd6218a2c760b9f65f14ef389ec20d92ee1aa4fcb4566d4ff3fa012956044f9dc503510d82e4c756a8ba92
   languageName: node
   linkType: hard
 
