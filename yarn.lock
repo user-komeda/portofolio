@@ -4591,11 +4591,11 @@ __metadata:
   linkType: hard
 
 "microcms-js-sdk@npm:^3.1.2":
-  version: 3.5.0
-  resolution: "microcms-js-sdk@npm:3.5.0"
+  version: 3.5.1
+  resolution: "microcms-js-sdk@npm:3.5.1"
   dependencies:
     async-retry: "npm:^1.3.3"
-  checksum: 10c0/4f791ccf27ed0902d1d878af29858daf205f7afad9cf2d2301140cbc0fc131238e4b8fa6d68cb43e0eca5c06ceadc24727cb6f6df69352110bcc756bc986d2b6
+  checksum: 10c0/7121da37945e7d9229f3933d1b10c24ea7cb71b016f83dc8b2bf43cc815ef391caa7337857d6b3532d7c479c1310841682ca4cde7c92e97ff89c041b118b8a05
   languageName: node
   linkType: hard
 
