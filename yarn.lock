@@ -1568,12 +1568,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:26.6.5":
-  version: 26.6.5
-  resolution: "@types/node@npm:26.6.5"
+"@types/node@npm:26.6.10":
+  version: 26.6.10
+  resolution: "@types/node@npm:26.6.10"
   dependencies:
     undici-types: "npm:~8.9.0"
-  checksum: 10c0/4f791f69466ace7842c09e7bef96cb1ddbb65cf3db916ef7e84f0e2b2a17220b6b816dc7539d01520cadfb17ed7169b8214910900493e0a83be8bc7d124ec20a
+  checksum: 10c0/d249c40c72ee1e61aeb9633263e5ebf428359206926a2ca12435cf7112e09a49aa5ef7a787e413fdf66b9ad8f41fb474eeb4e18e31e9b49a64033393e888ce56
   languageName: node
   linkType: hard
 
@@ -4981,7 +4981,7 @@ __metadata:
     "@astrojs/vercel": "npm:^11.0.16"
     "@eslint/js": "npm:10.0.1"
     "@tailwindcss/vite": "npm:^4.3.3"
-    "@types/node": "npm:26.6.5"
+    "@types/node": "npm:26.6.10"
     astro: "npm:^7.4.1"
     clsx: "npm:^2.1.1"
     eslint: "npm:10.15.0"
